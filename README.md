@@ -1,12 +1,39 @@
-# React + Vite
+# 🤖 Responsive Chatbot App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **responsive chatbot** built with **React** that uses an external chatbot library (`supersimpledev` Chatbot API) to process messages.  
+The bot can handle three built‑in commands:
 
-Currently, two official plugins are available:
+1. **Flip Coin** – returns `Heads` or `Tails`
+2. **Today Date** – returns the current date in a human‑readable format
+3. **Roll Dice** – returns a number from 1 to 6
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The app works on all screen sizes and chat messages persist using **localStorage**.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Features
+
+- 💬 Chat with the bot in real‑time.
+- ⚡ Three fun built‑in actions:
+  - **Flip Coin**
+  - **Get Today’s Date**
+  - **Roll Dice**
+- 🌓 Displays user and bot messages with avatars.
+- ⏳ Shows a "typing" spinner while waiting for the bot’s response.
+- 📱 Fully responsive – works on desktop and mobile.
+- 💾 Saves chat history locally so messages stay after a page reload.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (create‑react‑app or equivalent)
+- **supersimpledev Chatbot** API
+- **JavaScript** / JSX
+- **CSS** (custom styles in `App.css`)
+- **localStorage** for persistence
+
+---
+
+## 📂 Project Structure
+
