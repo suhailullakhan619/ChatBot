@@ -3,7 +3,7 @@
 ## 🚀 Live Demo
 
 Access the deployed app here:<br>
-👉 [suhailchatbox.netlify.app](suhailchatbox.netlify.app)
+👉 [Click Here](https://suhailchatbox.netlify.app/)
 ---
 
 This is a **responsive chatbot** built with **React** that uses an external chatbot library (`supersimpledev` Chatbot API) to process messages.  
