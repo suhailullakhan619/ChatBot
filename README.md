@@ -1,4 +1,10 @@
 # 🤖 Responsive Chatbot App
+---
+## 🚀 Live Demo
+
+Access the deployed app here:<br>
+👉 [https://your-deployed-link.com](https://your-deployed-link.com)
+---
 
 This is a **responsive chatbot** built with **React** that uses an external chatbot library (`supersimpledev` Chatbot API) to process messages.  
 The bot can handle three built‑in commands:
@@ -35,5 +41,4 @@ The app works on all screen sizes and chat messages persist using **localStorage
 
 ---
 
-## 📂 Project Structure
 
