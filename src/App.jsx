@@ -1,9 +1,11 @@
 import { useState,useEffect } from 'react'
 import { Chatbot } from 'supersimpledev'
 import './App.css'
+
 import userpic from './assets/user pic.png'
 import robotpic from './assets/robot pic.png'
 import spin from './assets/spin.gif'
+import Slogoblack from './assets/sletter.svg'
 import { useRef } from 'react'
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
   }
   return (
     <> 
+     <link rel="icon" type="image/svg+xml" href={Slogoblack} />
        <div className='inputandchatContainer'>
         
           <div className='userRobotchatcontainer' style={{width:'100%',display:'flex',alignItems:'center',justifyContent:'center'}} >
